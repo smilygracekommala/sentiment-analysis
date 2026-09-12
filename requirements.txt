@@ -2,3 +2,5 @@ jupyter
 pandas
 numpy
 nltk
+
+these are used in this project!
