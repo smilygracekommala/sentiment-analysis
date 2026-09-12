@@ -527,7 +527,7 @@ def unittest_test_logistic_regression(target, freqs, theta):
                 f"Wrong accuracy value. \n\tExpected: {failed_cases[-1].get('expected')}.\n\tGot: {failed_cases[-1].get('got')}."
             )
 
-    if len(failed_cases) == 0:
+ if len(failed_cases) == 0:
         print("\033[92m All tests passed")
     else:
         print("\033[92m", successful_cases, " Tests passed")
